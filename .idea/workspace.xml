@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="88213192-8f88-44c1-9bfa-3cf33819252a" name="Changes" comment="">
+    <list default="true" id="88213192-8f88-44c1-9bfa-3cf33819252a" name="Changes" comment="до задачи 19">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -16,18 +16,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Forgenbumik"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Forgenbumik&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Forgenbumik/OOPTasks.git",
-    "accountId": "cce8389b-3e5e-42a5-a879-0b4344598ac7"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Forgenbumik/OOPTasks.git&quot;,
+    &quot;accountId&quot;: &quot;cce8389b-3e5e-42a5-a879-0b4344598ac7&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -54,6 +54,19 @@
       <option name="presentableId" value="Default" />
       <updated>1726066676887</updated>
     </task>
+    <task id="LOCAL-00001" summary="до задачи 19">
+      <option name="closed" value="true" />
+      <created>1726128856248</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1726128856248</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="до задачи 19" />
+    <option name="LAST_COMMIT_MESSAGE" value="до задачи 19" />
   </component>
 </project>

@@ -388,7 +388,7 @@ class Order {
 class Customer {
 
 }
-class Product {
+class Product1 {
 
 }
 //Задача 19
@@ -405,13 +405,49 @@ class Smartphone extends Device {
     void takePhoto() {
         System.out.println("Сделал фотогорафию");
     }
-    void
+    void callfried(String name) {
+        System.out.println("Звоню контакту " + name);
+    }
 }
 class Laptop extends Device {
     void HackPentagon() {
         System.out.println("Взломал Пентагон");
     }
+    void Programme() {
+        System.out.println("Я устал");
+    }
+}
+//Задача 20
+class CrossZero {
+    private char[][] field;
+    public CrossZero() {
 
+    }
+}
+class Player1 {
+    String name;
+    String step;
+}
+
+class Game{
+    private String[][] field;
+
+    public Game(){
+        field = new String[3][3];
+    }
+
+    public void hod(int x, int y, Player1 p){
+        System.out.println("Игрок "+ p.name+" ставит "+p.step+" на точку "+x+" "+y);
+        field[x][y] = p.step;
+    }
+
+    public void printField(){
+        for(int i = 0; i<3;i++) {
+            for (int j = 0; j < 3; j++)
+                System.out.print(field[i][j]);
+            System.out.println();
+        }
+    }
 }
 public class Main {
     public static void main(String[] args) {
