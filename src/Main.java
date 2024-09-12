@@ -375,7 +375,6 @@ class Enemy extends Character{
         System.out.println("Враг " + this.name + "атакует игрока " + player.name + ": урон " + this.weapon.damage);
         player.Damage(this.weapon.damage);
     }
-
 }
 class Weapon {
     String name;
@@ -383,13 +382,31 @@ class Weapon {
 }
 //Задача 18
 class Order {
-
+    int ID;
+    int TotalSum;
+    ArrayList<Product1> products;
+    void addProduct(Product1 product) {
+        TotalSum += product.cost;
+        products.add(product);
+    }
 }
 class Customer {
-
+    int ID;
+    ArrayList<Order> orders;
+    void addOrder(Order order) {
+        orders.add(order);
+    }
+    void ShowOrders() {
+        System.out.println("Номер заказа Общая стоимость");
+        for (Order order: orders) {
+            System.out.printf("{1} {2}", order.ID, order.TotalSum);
+        }
+    }
 }
 class Product1 {
-
+    int ID;
+    String name;
+    int cost;
 }
 //Задача 19
 class Device {
@@ -414,16 +431,10 @@ class Laptop extends Device {
         System.out.println("Взломал Пентагон");
     }
     void Programme() {
-        System.out.println("Я устал");
+        System.out.println("Я устал клик клак по клавиатуре");
     }
 }
 //Задача 20
-class CrossZero {
-    private char[][] field;
-    public CrossZero() {
-
-    }
-}
 class Player1 {
     String name;
     String step;
